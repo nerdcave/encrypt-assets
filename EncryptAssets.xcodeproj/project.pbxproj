@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6924140114DB68F700BB3DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6924140014DB68F700BB3DFE /* Foundation.framework */; };
+		6924140414DB68F700BB3DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6924140314DB68F700BB3DFE /* main.m */; };
+		6924140814DB68F700BB3DFE /* EncryptAssets.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6924140714DB68F700BB3DFE /* EncryptAssets.1 */; };
+		6924141314DB6B6600BB3DFE /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 6924141214DB6B6600BB3DFE /* NSData+AES256.m */; };
+		96E33907175D9A7B001DAD1C /* NSDictionary+Decrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E33906175D9A7B001DAD1C /* NSDictionary+Decrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		692413FA14DB68F700BB3DFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6924140814DB68F700BB3DFE /* EncryptAssets.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		692413FC14DB68F700BB3DFE /* EncryptAssets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EncryptAssets; sourceTree = BUILT_PRODUCTS_DIR; };
+		6924140014DB68F700BB3DFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6924140314DB68F700BB3DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6924140614DB68F700BB3DFE /* EncryptAssets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncryptAssets-Prefix.pch"; sourceTree = "<group>"; };
+		6924140714DB68F700BB3DFE /* EncryptAssets.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EncryptAssets.1; sourceTree = "<group>"; };
+		6924141114DB6B6600BB3DFE /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		6924141214DB6B6600BB3DFE /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		96E33905175D9A7B001DAD1C /* NSDictionary+Decrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Decrypt.h"; sourceTree = "<group>"; };
+		96E33906175D9A7B001DAD1C /* NSDictionary+Decrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Decrypt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		692413F914DB68F700BB3DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924140114DB68F700BB3DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692413F114DB68F700BB3DFE = {
+			isa = PBXGroup;
+			children = (
+				6924140214DB68F700BB3DFE /* EncryptAssets */,
+				692413FF14DB68F700BB3DFE /* Frameworks */,
+				692413FD14DB68F700BB3DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		692413FD14DB68F700BB3DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				692413FC14DB68F700BB3DFE /* EncryptAssets */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		692413FF14DB68F700BB3DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6924140014DB68F700BB3DFE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6924140214DB68F700BB3DFE /* EncryptAssets */ = {
+			isa = PBXGroup;
+			children = (
+				6924140314DB68F700BB3DFE /* main.m */,
+				6924140714DB68F700BB3DFE /* EncryptAssets.1 */,
+				6924140514DB68F700BB3DFE /* Supporting Files */,
+			);
+			path = EncryptAssets;
+			sourceTree = "<group>";
+		};
+		6924140514DB68F700BB3DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6924141114DB6B6600BB3DFE /* NSData+AES256.h */,
+				6924141214DB6B6600BB3DFE /* NSData+AES256.m */,
+				6924140614DB68F700BB3DFE /* EncryptAssets-Prefix.pch */,
+				96E33905175D9A7B001DAD1C /* NSDictionary+Decrypt.h */,
+				96E33906175D9A7B001DAD1C /* NSDictionary+Decrypt.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		692413FB14DB68F700BB3DFE /* EncryptAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6924140B14DB68F700BB3DFE /* Build configuration list for PBXNativeTarget "EncryptAssets" */;
+			buildPhases = (
+				692413F814DB68F700BB3DFE /* Sources */,
+				692413F914DB68F700BB3DFE /* Frameworks */,
+				692413FA14DB68F700BB3DFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptAssets;
+			productName = EncryptAssets;
+			productReference = 692413FC14DB68F700BB3DFE /* EncryptAssets */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		692413F314DB68F700BB3DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 692413F614DB68F700BB3DFE /* Build configuration list for PBXProject "EncryptAssets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 692413F114DB68F700BB3DFE;
+			productRefGroup = 692413FD14DB68F700BB3DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				692413FB14DB68F700BB3DFE /* EncryptAssets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		692413F814DB68F700BB3DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924140414DB68F700BB3DFE /* main.m in Sources */,
+				6924141314DB6B6600BB3DFE /* NSData+AES256.m in Sources */,
+				96E33907175D9A7B001DAD1C /* NSDictionary+Decrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6924140914DB68F700BB3DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6924140A14DB68F700BB3DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6924140C14DB68F700BB3DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptAssets/EncryptAssets-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6924140D14DB68F700BB3DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptAssets/EncryptAssets-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		692413F614DB68F700BB3DFE /* Build configuration list for PBXProject "EncryptAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6924140914DB68F700BB3DFE /* Debug */,
+				6924140A14DB68F700BB3DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6924140B14DB68F700BB3DFE /* Build configuration list for PBXNativeTarget "EncryptAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6924140C14DB68F700BB3DFE /* Debug */,
+				6924140D14DB68F700BB3DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 692413F314DB68F700BB3DFE /* Project object */;
+}
